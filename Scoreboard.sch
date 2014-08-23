@@ -36,9 +36,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
-Date "21 aug 2014"
+Date "23 aug 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -110,7 +110,13 @@ Wire Wire Line
 $Sheet
 S 2000 3750 1300 2800
 U 53F5E24D
-F0 "LED DRIVER" 50
-F1 "LED DRIVER.sch" 50
+F0 "LED LOW SIDE DRIVER" 50
+F1 "LED LOW SIDE DRIVER.sch" 50
+$EndSheet
+$Sheet
+S 3950 3750 1150 2800
+U 53F8112A
+F0 "LED HIGH SIDE DRIVER" 50
+F1 "LED HIGH SIDE DRIVER.sch" 50
 $EndSheet
 $EndSCHEMATC
