@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 8/24/2014 8:16:29 PM
+
+BeginCmp
+TimeStamp = /53FA59F1;
+Reference = C1;
+ValeurCmp = 100uF;
+IdModule  = CP_3.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA574C;
+Reference = C2;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA5748;
+Reference = C3;
+ValeurCmp = 22nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA59E2;
+Reference = C4;
+ValeurCmp = 100uF;
+IdModule  = CP_3.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA61A3;
+Reference = C5;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA573E;
+Reference = CON1;
+ValeurCmp = 12V INPUT;
+IdModule  = BARREL_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA5744;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = DIODE_SMC;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA5742;
+Reference = F1;
+ValeurCmp = 7A;
+IdModule  = FUSE_2-SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA5749;
+Reference = L1;
+ValeurCmp = 4.7uH;
+IdModule  = NR6028T4R7M;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA574F;
+Reference = U1;
+ValeurCmp = 12V OUT;
+IdModule  = Connector_Wire_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA5750;
+Reference = U2;
+ValeurCmp = 3.3V OUT;
+IdModule  = Connector_Wire_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA5740;
+Reference = U3;
+ValeurCmp = MCP16321/2;
+IdModule  = QFN_3X3_HANDSOLDER;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA57F7;
+Reference = U4;
+ValeurCmp = 12V OUT;
+IdModule  = Connector_Wire_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA57F1;
+Reference = U5;
+ValeurCmp = 3.3V OUT;
+IdModule  = Connector_Wire_2;
+EndCmp
+
+EndListe

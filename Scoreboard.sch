@@ -31,6 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:WF121
 LIBS:CustomPower
+LIBS:CustomConnect
 LIBS:Scoreboard-cache
 EELAYER 27 0
 EELAYER END
@@ -38,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title ""
-Date "23 aug 2014"
+Date "24 aug 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -101,12 +102,6 @@ F40 "RB15" B L 6850 5850 60
 F41 "RD1" B L 6850 5950 60 
 F42 "RD10" B L 6850 6050 60 
 $EndSheet
-Wire Wire Line
-	10200 4100 9750 4100
-Wire Wire Line
-	9750 4100 9750 6050
-Wire Wire Line
-	9750 6050 8400 6050
 $Sheet
 S 2000 3750 1300 2800
 U 53F5E24D

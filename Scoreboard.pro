@@ -1,4 +1,4 @@
-update=8/22/2014 9:15:54 PM
+update=8/24/2014 3:30:14 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -86,5 +86,6 @@ LibName29=contrib
 LibName30=valves
 LibName31=WF121
 LibName32=CustomPower
+LibName33=CustomConnect
 [general]
 version=1
