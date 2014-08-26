@@ -31,6 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:CustomConnect
 LIBS:CustomPower
+LIBS:WF121
 LIBS:Scoreboard_PowerSupply-cache
 EELAYER 27 0
 EELAYER END
@@ -38,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "24 aug 2014"
+Date "26 aug 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -167,8 +168,6 @@ F 3 "~" H 7550 3550 60  0000 C CNN
 	1    7550 3550
 	0    1    1    0   
 $EndComp
-Text HLabel 8750 3550 2    39   Input ~ 0
-3.3V
 $Comp
 L GND #PWR06
 U 1 1 53FA574B
@@ -257,12 +256,6 @@ F 3 "" H 5100 5800 60  0000 C CNN
 	1    5100 5800
 	1    0    0    -1  
 $EndComp
-Text HLabel 6800 5350 0    39   Output ~ 0
-3.3V
-Text HLabel 5150 5350 0    39   Output ~ 0
-12V
-Text HLabel 4750 3100 1    39   Input ~ 0
-12V
 Wire Wire Line
 	3200 3700 3400 3700
 Wire Wire Line
@@ -331,8 +324,6 @@ Wire Wire Line
 Wire Wire Line
 	5100 5650 5100 5800
 Wire Wire Line
-	6950 5350 6800 5350
-Wire Wire Line
 	5300 5350 5150 5350
 $Comp
 L WIRE2 U5
@@ -378,14 +369,8 @@ F 3 "" H 3600 5800 60  0000 C CNN
 	1    3600 5800
 	1    0    0    -1  
 $EndComp
-Text HLabel 3550 5350 0    39   Output ~ 0
-12V
-Text HLabel 8000 5350 0    39   Output ~ 0
-3.3V
 Wire Wire Line
 	8250 5350 8000 5350
-Wire Wire Line
-	3850 5350 3550 5350
 Wire Wire Line
 	3850 5650 3600 5650
 Wire Wire Line
@@ -432,4 +417,21 @@ Wire Wire Line
 Connection ~ 5150 3500
 Wire Wire Line
 	5150 4050 5400 4050
+Wire Wire Line
+	6800 5350 6950 5350
+Wire Wire Line
+	3850 5350 3550 5350
+Text GLabel 3550 5350 0    39   Output ~ 0
+12V
+Text GLabel 4750 3100 1    39   Output ~ 0
+12V
+Text GLabel 5150 5350 0    39   Output ~ 0
+12V
+Text GLabel 6800 5350 0    39   Output ~ 0
+3.3V
+Text GLabel 8000 5350 0    39   Output ~ 0
+3.3V
+Text GLabel 8750 3550 2    39   Input ~ 0
+3.3V
+Connection ~ 7050 3550
 $EndSCHEMATC
