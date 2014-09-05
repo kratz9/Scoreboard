@@ -34,9 +34,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
-Date "4 sep 2014"
+Date "5 sep 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,15 +45,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 6750 1500 2450 5000
+S 6750 1500 2000 1300
 U 540394F4
 F0 "High Side Drive" 50
 F1 "High Side Drive.sch" 50
 $EndSheet
 $Sheet
-S 2550 1600 2350 5000
+S 2550 1600 1650 1300
 U 54039517
 F0 "Low side drive" 50
 F1 "Low side drive.sch" 50
+$EndSheet
+$Sheet
+S 2650 4350 1400 1250
+U 54092826
+F0 "LowSideIsolatedDrive" 50
+F1 "LowSideIsolatedDrive.sch" 50
 $EndSheet
 $EndSCHEMATC
