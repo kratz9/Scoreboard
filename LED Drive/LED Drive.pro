@@ -1,14 +1,11 @@
-update=8/31/2014 4:30:57 PM
+update=9/8/2014 10:55:45 PM
 version=1
-last_client=kicad
-[cvpcb]
+last_client=pcbnew
+[general]
 version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
-LibDir=
+LibDir=../../KiCad_Library
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -45,14 +42,20 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=CustomConnect
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
+PadDrill=1.100000000000
+PadDrillOvalY=1.100000000000
+PadSizeH=1.800000000000
+PadSizeV=1.800000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -65,7 +68,7 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
+LibDir=../../KiCad_Library
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -82,5 +85,5 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
-version=1
+LibName17=CustomConnect
+LibName18=CustomSMD
