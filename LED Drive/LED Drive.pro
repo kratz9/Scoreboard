@@ -1,6 +1,6 @@
-update=9/8/2014 10:55:45 PM
+update=9/9/2014 10:40:55 PM
 version=1
-last_client=pcbnew
+last_client=cvpcb
 [general]
 version=1
 [eeschema]
@@ -43,11 +43,6 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=CustomConnect
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
@@ -68,7 +63,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=../../KiCad_Library
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -87,3 +81,9 @@ LibName15=pga_sockets
 LibName16=valves
 LibName17=CustomConnect
 LibName18=CustomSMD
+LibDir=../../KiCad_Library;../../KiCad_Library/loose modules
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

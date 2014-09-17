@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title ""
-Date "9 sep 2014"
+Date "10 sep 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -218,13 +218,9 @@ CLK
 Text GLabel 3150 1350 0    60   Input ~ 0
 HS_IN
 Text GLabel 3150 2550 0    60   Input ~ 0
-3.3V
-Text GLabel 3150 2850 0    60   Input ~ 0
-GND1
+VCC3.3
 Text GLabel 3150 3700 0    60   Input ~ 0
 12V
-Text GLabel 3150 4000 0    60   Input ~ 0
-GND2
 Text GLabel 3100 4800 0    60   Input ~ 0
 LS_OUT
 Text GLabel 3100 5100 0    60   Input ~ 0
@@ -312,5 +308,20 @@ Wire Wire Line
 Wire Wire Line
 	3150 2550 3250 2550
 Wire Wire Line
-	3250 2850 3150 2850
+	2950 2850 3250 2850
+$Comp
+L GND #PWR01
+U 1 1 540FC021
+P 2950 2950
+F 0 "#PWR01" H 2950 2950 30  0001 C CNN
+F 1 "GND" H 2950 2880 30  0001 C CNN
+F 2 "" H 2950 2950 60  0000 C CNN
+F 3 "" H 2950 2950 60  0000 C CNN
+	1    2950 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2850 2950 2950
+Text GLabel 3150 4000 0    60   Input ~ 0
+GND2
 $EndSCHEMATC

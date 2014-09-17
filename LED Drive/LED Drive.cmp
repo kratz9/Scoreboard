@@ -1,227 +1,227 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/8/2014 11:10:12 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/9/2014 10:45:10 PM
 
 BeginCmp
 TimeStamp = /54092826/54093313;
 Reference = Q1;
 ValeurCmp = MOS_N;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54092826/540935DF;
 Reference = Q2;
 ValeurCmp = MOS_N;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54092826/5409372C;
 Reference = Q3;
 ValeurCmp = MOS_N;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54092826/54093780;
 Reference = Q4;
 ValeurCmp = MOS_N;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54092826/540937F7;
 Reference = Q5;
 ValeurCmp = MOS_N;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54092826/54093851;
 Reference = Q6;
 ValeurCmp = MOS_N;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54092826/540938C8;
 Reference = Q7;
 ValeurCmp = MOS_N;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54092826/5409391C;
 Reference = Q8;
 ValeurCmp = MOS_N;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54092826/540935C3;
 Reference = Q9;
 ValeurCmp = MOS_N;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54092826/54093603;
 Reference = Q10;
 ValeurCmp = MOS_N;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54092826/54093764;
 Reference = Q11;
 ValeurCmp = MOS_N;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54092826/540937A4;
 Reference = Q12;
 ValeurCmp = MOS_N;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54092826/54093835;
 Reference = Q13;
 ValeurCmp = MOS_N;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54092826/54093875;
 Reference = Q14;
 ValeurCmp = MOS_N;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54092826/54093900;
 Reference = Q15;
 ValeurCmp = MOS_N;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54092826/54093940;
 Reference = Q16;
 ValeurCmp = MOS_N;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BEA0E/540BE2B5;
 Reference = Q17;
 ValeurCmp = MOS_P;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BEA0E/540BE4C9;
 Reference = Q18;
 ValeurCmp = MOS_P;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BEA0E/540BEB74;
 Reference = Q19;
 ValeurCmp = MOS_P;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BEA0E/540BED7F;
 Reference = Q20;
 ValeurCmp = MOS_P;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BEA0E/540BF082;
 Reference = Q21;
 ValeurCmp = MOS_P;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BEA0E/540BF49E;
 Reference = Q22;
 ValeurCmp = MOS_P;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BEA0E/540BF7D0;
 Reference = Q23;
 ValeurCmp = MOS_P;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BEA0E/540BFD31;
 Reference = Q24;
 ValeurCmp = MOS_P;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BEA0E/540BE4BA;
 Reference = Q25;
 ValeurCmp = MOS_P;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BEA0E/540BEB65;
 Reference = Q26;
 ValeurCmp = MOS_P;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BEA0E/540BED70;
 Reference = Q27;
 ValeurCmp = MOS_P;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BEA0E/540BF073;
 Reference = Q28;
 ValeurCmp = MOS_P;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BEA0E/540BF480;
 Reference = Q29;
 ValeurCmp = MOS_P;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BEA0E/540BF7C1;
 Reference = Q30;
 ValeurCmp = MOS_P;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BEA0E/540BFD22;
 Reference = Q31;
 ValeurCmp = MOS_P;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BEA0E/540BFD40;
 Reference = Q32;
 ValeurCmp = MOS_P;
-IdModule  = sot23;
+IdModule  = SOT23_MOS_N;
 EndCmp
 
 BeginCmp
