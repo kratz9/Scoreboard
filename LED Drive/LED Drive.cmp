@@ -1,4 +1,32 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/9/2014 10:45:10 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/25/2014 9:46:21 PM
+
+BeginCmp
+TimeStamp = /54092826/5424D432;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /54092826/5424D698;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /540BEA0E/5424D902;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /540BEA0E/5424DB53;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
 
 BeginCmp
 TimeStamp = /54092826/54093313;

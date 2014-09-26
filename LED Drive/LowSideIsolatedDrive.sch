@@ -37,7 +37,7 @@ $Descr B 11000 17000 portrait
 encoding utf-8
 Sheet 2 3
 Title ""
-Date "10 sep 2014"
+Date "26 sep 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1515,14 +1515,14 @@ Wire Wire Line
 Wire Wire Line
 	7300 7900 7300 8000
 Wire Wire Line
-	2100 1000 2100 900 
+	2100 750  2100 1000
 Wire Wire Line
 	2100 900  1250 900 
 Connection ~ 1250 1400
 Wire Wire Line
 	2100 2800 2100 2600
 Wire Wire Line
-	2100 2600 1250 2600
+	1250 2600 2150 2600
 Connection ~ 1250 2600
 Wire Wire Line
 	2100 3900 2100 4000
@@ -1534,4 +1534,54 @@ Wire Wire Line
 Wire Wire Line
 	2100 2200 1700 2200
 Connection ~ 1700 2200
+$Comp
+L C C1
+U 1 1 5424D432
+P 2300 750
+F 0 "C1" H 2300 850 40  0000 L CNN
+F 1 "C" H 2306 665 40  0000 L CNN
+F 2 "~" H 2338 600 30  0000 C CNN
+F 3 "~" H 2300 750 60  0000 C CNN
+	1    2300 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 5424D450
+P 2650 750
+F 0 "#PWR020" H 2650 750 30  0001 C CNN
+F 1 "GND" H 2650 680 30  0001 C CNN
+F 2 "" H 2650 750 60  0000 C CNN
+F 3 "" H 2650 750 60  0000 C CNN
+	1    2650 750 
+	1    0    0    -1  
+$EndComp
+Connection ~ 2100 900 
+Wire Wire Line
+	2500 750  2650 750 
+$Comp
+L C C2
+U 1 1 5424D698
+P 2350 2600
+F 0 "C2" H 2350 2700 40  0000 L CNN
+F 1 "C" H 2356 2515 40  0000 L CNN
+F 2 "~" H 2388 2450 30  0000 C CNN
+F 3 "~" H 2350 2600 60  0000 C CNN
+	1    2350 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 5424D6B6
+P 2650 2600
+F 0 "#PWR021" H 2650 2600 30  0001 C CNN
+F 1 "GND" H 2650 2530 30  0001 C CNN
+F 2 "" H 2650 2600 60  0000 C CNN
+F 3 "" H 2650 2600 60  0000 C CNN
+	1    2650 2600
+	0    -1   1    0   
+$EndComp
+Connection ~ 2100 2600
+Wire Wire Line
+	2550 2600 2650 2600
 $EndSCHEMATC
